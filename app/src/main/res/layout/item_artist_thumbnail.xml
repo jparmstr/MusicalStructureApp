@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/item_artist_thumbnail_padding">
+
+    <ImageView
+        android:id="@+id/item_artist_thumbnail_imageView"
+        android:layout_width="@dimen/item_artist_thumbnail_width"
+        android:layout_height="@dimen/item_artist_thumbnail_height"
+        android:adjustViewBounds="true"
+        android:background="@color/lightGray"
+        android:contentDescription="@string/item_album_thumbnail_content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_person_outline_100dp" />
+
+    <TextView
+        android:id="@+id/item_artist_thumbnail_artist_name"
+        style="@style/style_artist_thumbnail_artist_name"
+        android:layout_below="@id/item_artist_thumbnail_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:maxWidth="@dimen/item_artist_thumbnail_width"
+        tools:text="Artist Name" />
+
+</RelativeLayout>

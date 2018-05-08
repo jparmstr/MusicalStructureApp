@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_album_thumbnail_main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_album_thumbnail_padding">
+
+    <ImageView
+        android:id="@+id/item_album_thumbnail_imageView"
+        android:layout_width="@dimen/item_album_thumbnail_size"
+        android:layout_height="@dimen/item_album_thumbnail_size"
+        android:adjustViewBounds="true"
+        android:background="@color/lightGray"
+        android:contentDescription="@string/item_album_thumbnail_content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_music_note_200dp" />
+
+    <RelativeLayout
+        android:id="@+id/item_album_thumbnail_sub_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_album_thumbnail_imageView"
+        android:maxWidth="@dimen/item_album_thumbnail_size">
+
+        <TextView
+            android:id="@+id/item_album_thumbnail_title"
+            style="@style/style_album_thumbnail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxWidth="@dimen/item_album_thumbnail_size"
+            tools:text="Album Title" />
+
+        <TextView
+            android:id="@+id/item_album_thumbnail_artist"
+            style="@style/style_album_thumbnail_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_album_thumbnail_title"
+            android:maxLines="1"
+            android:maxWidth="@dimen/item_album_thumbnail_size"
+            tools:text="Artist Name" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

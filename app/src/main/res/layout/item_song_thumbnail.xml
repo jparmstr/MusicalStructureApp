@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_song_thumbnail_padding">
+
+    <ImageView
+        android:id="@+id/item_song_thumbnail_imageView"
+        android:layout_width="@dimen/item_song_thumbnail_size"
+        android:layout_height="@dimen/item_song_thumbnail_size"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:background="@color/lightGray"
+        android:contentDescription="@string/item_album_thumbnail_content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_music_note_50dp" />
+
+    <TextView
+        android:id="@+id/item_song_thumbnail_song_title"
+        style="@style/style_album_details_artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_song_thumbnail_imageView"
+        tools:text="Song Title" />
+
+    <TextView
+        android:id="@+id/item_song_thumbnail_artist_name"
+        style="@style/style_album_details_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_song_thumbnail_song_title"
+        android:layout_toEndOf="@id/item_song_thumbnail_imageView"
+        tools:text="Artist Name" />
+
+    <TextView
+        android:id="@+id/item_song_thumbnail_separator_character"
+        style="@style/style_album_details_separator_character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_song_thumbnail_song_title"
+        android:layout_toEndOf="@id/item_song_thumbnail_artist_name"
+        android:text="@string/separator_character" />
+
+    <TextView
+        android:id="@+id/item_song_thumbnail_song_length"
+        style="@style/style_album_details_song_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_song_thumbnail_song_title"
+        android:layout_toEndOf="@id/item_song_thumbnail_separator_character"
+        tools:text="01:23" />
+
+</RelativeLayout>

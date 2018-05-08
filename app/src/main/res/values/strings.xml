@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <!-- Labels for the different Activities -->
+    <string name="activity_main_label">Musical Structure App</string>
+    <string name="activity_albums_label">Albums</string>
+    <string name="activity_artists_label">Artists</string>
+    <string name="activity_songs_label">Songs</string>
+    <string name="activity_album_detail_label">Album Details</string>
+    <string name="activity_now_playing_label">Now Playing</string>
+
+    <!-- Misc. user interface text -->
+    <string name="separator_character">•</string>
+
+    <!-- Content Descriptions for user interface elements (accessibility) -->
+    <string name="item_album_thumbnail_content_description">Album Cover</string>
+    <string name="album_details_album_cover_content_description">Album Cover</string>
+</resources>

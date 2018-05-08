@@ -1,0 +1,938 @@
+[
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 1,
+   "Song Title": "How Simple",
+   "Song Length": "3:48",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 2,
+   "Song Title": "Somewhere a Judge",
+   "Song Length": "3:52",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 3,
+   "Song Title": "How You Got Your Limp",
+   "Song Length": "2:36",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 4,
+   "Song Title": "Not Abel",
+   "Song Length": "4:36",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 5,
+   "Song Title": "The Fox in Motion",
+   "Song Length": "3:59",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 6,
+   "Song Title": "One That Suits Me",
+   "Song Length": "5:16",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 7,
+   "Song Title": "What the Writer Meant",
+   "Song Length": "4:06",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 8,
+   "Song Title": "Look of Love",
+   "Song Length": "6:11",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Hop Along",
+   "Album Name": "Bark Your Head Off, Dog",
+   "Track Number": 9,
+   "Song Title": "Prior Things",
+   "Song Length": "5:42",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 1,
+   "Song Title": "(tuning)",
+   "Song Length": "0:37",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 2,
+   "Song Title": "The Instrument",
+   "Song Length": "3:21",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 3,
+   "Song Title": "The Louder I Call, The Faster It Runs",
+   "Song Length": "4:23",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 4,
+   "Song Title": "Lifer",
+   "Song Length": "3:32",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 5,
+   "Song Title": "It Was Not Natural",
+   "Song Length": "4:05",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 6,
+   "Song Title": "Symmetry",
+   "Song Length": "4:06",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 7,
+   "Song Title": "My Signal",
+   "Song Length": "1:36",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 8,
+   "Song Title": "Say Hello",
+   "Song Length": "3:44",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 9,
+   "Song Title": "Over and Over",
+   "Song Length": "2:54",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 10,
+   "Song Title": "You of All People",
+   "Song Length": "3:55",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 11,
+   "Song Title": "Join",
+   "Song Length": "2:55",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Wye Oak",
+   "Album Name": "The Louder I Call, The Faster It Runs",
+   "Track Number": 12,
+   "Song Title": "I Know It's Real",
+   "Song Length": "3:20",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 1,
+   "Song Title": "BLOOD.",
+   "Song Length": "1:58",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 2,
+   "Song Title": "DNA.",
+   "Song Length": "3:05",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 3,
+   "Song Title": "YAH.",
+   "Song Length": "2:40",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 4,
+   "Song Title": "ELEMENT.",
+   "Song Length": "3:28",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 5,
+   "Song Title": "FEEL.",
+   "Song Length": "3:34",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 6,
+   "Song Title": "LOYALTY. (featuring Rihanna)",
+   "Song Length": "3:47",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 7,
+   "Song Title": "PRIDE.",
+   "Song Length": "4:35",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 8,
+   "Song Title": "HUMBLE.",
+   "Song Length": "2:57",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 9,
+   "Song Title": "LUST.",
+   "Song Length": "5:07",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 10,
+   "Song Title": "LOVE. (featuring Zacari)",
+   "Song Length": "3:33",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 11,
+   "Song Title": "XXX. (featuring U2)",
+   "Song Length": "4:14",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 12,
+   "Song Title": "FEAR.",
+   "Song Length": "7:40",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 13,
+   "Song Title": "GOD.",
+   "Song Length": "4:08",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "DAMN",
+   "Track Number": 14,
+   "Song Title": "DUCKWORTH.",
+   "Song Length": "4:08",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 1,
+   "Song Title": "Dirty Computer (featuring Brian Wilson)",
+   "Song Length": "1:59",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 2,
+   "Song Title": "Crazy, Classic, Life",
+   "Song Length": "4:46",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 3,
+   "Song Title": "Take a Byte",
+   "Song Length": "4:07",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 4,
+   "Song Title": "Jane's Dream",
+   "Song Length": "0:18",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 5,
+   "Song Title": "Screwed (featuring Zo  Kravitz)",
+   "Song Length": "5:02",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 6,
+   "Song Title": "Django Jane",
+   "Song Length": "3:10",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 7,
+   "Song Title": "Pynk (featuring Grimes)",
+   "Song Length": "4:00",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 8,
+   "Song Title": "Make Me Feel",
+   "Song Length": "3:14",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 9,
+   "Song Title": "I Got the Juice (featuring Pharrell Williams)",
+   "Song Length": "3:46",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 10,
+   "Song Title": "I Like That",
+   "Song Length": "3:20",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 11,
+   "Song Title": "Don't Judge Me",
+   "Song Length": "6:00",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 12,
+   "Song Title": "Stevie's Dream",
+   "Song Length": "0:46",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 13,
+   "Song Title": "So Afraid",
+   "Song Length": "4:04",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Janelle Monáe",
+   "Album Name": "Dirty Computer",
+   "Track Number": 14,
+   "Song Title": "Americans",
+   "Song Length": "4:06",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 1,
+   "Song Title": "A God Called Hubris",
+   "Song Length": "0:41",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 2,
+   "Song Title": "Major League Chemicals",
+   "Song Length": "3:53",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 3,
+   "Song Title": "Ministry of Alienation",
+   "Song Length": "3:43",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 4,
+   "Song Title": "Hunnybee",
+   "Song Length": "4:28",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 5,
+   "Song Title": "Chronos Feasts on His Children",
+   "Song Length": "1:42",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 6,
+   "Song Title": "American Guilt",
+   "Song Length": "4:33",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 7,
+   "Song Title": "The Internet of Love (That Way)",
+   "Song Length": "4:57",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 8,
+   "Song Title": "Everyone Acts Crazy Nowadays",
+   "Song Length": "4:15",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 9,
+   "Song Title": "This Doomsday",
+   "Song Length": "3:32",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 10,
+   "Song Title": "How Many Zeros",
+   "Song Length": "3:25",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 11,
+   "Song Title": "Not in Love We're Just High",
+   "Song Length": "3:38",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Unknown Mortal Orchestra",
+   "Album Name": "Sex & Food",
+   "Track Number": 12,
+   "Song Title": "If You're Going to Break Yourself",
+   "Song Length": "4:38",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 1,
+   "Song Title": "Sherane a.k.a Master Splinter's Daughter",
+   "Song Length": "4:33",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 2,
+   "Song Title": "Bitch, Don't Kill My Vibe",
+   "Song Length": "5:10",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 3,
+   "Song Title": "Backseat Freestyle",
+   "Song Length": "3:32",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 4,
+   "Song Title": "The Art of Peer Pressure",
+   "Song Length": "5:24",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 5,
+   "Song Title": "Money Trees (featuring Jay Rock)",
+   "Song Length": "6:26",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 6,
+   "Song Title": "Poetic Justice (featuring Drake)",
+   "Song Length": "5:00",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 7,
+   "Song Title": "Good Kid",
+   "Song Length": "3:34",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 8,
+   "Song Title": "M.A.A.D City (featuring MC Eiht)",
+   "Song Length": "5:50",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 9,
+   "Song Title": "Swimming Pools (Drank) (Extended Version)",
+   "Song Length": "5:13",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 10,
+   "Song Title": "Sing About Me, I'm Dying of Thirst",
+   "Song Length": "12:03",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 11,
+   "Song Title": "Real (featuring Anna Wise)",
+   "Song Length": "7:23",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Kendrick Lamar",
+   "Album Name": "good kid, m.A.A.d city",
+   "Track Number": 12,
+   "Song Title": "Compton (featuring Dr. Dre)",
+   "Song Length": "4:08",
+   "Year": 2013
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 1,
+   "Song Title": "Free Smoke",
+   "Song Length": "3:39",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 2,
+   "Song Title": "No Long Talk (featuring Giggs)",
+   "Song Length": "2:30",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 3,
+   "Song Title": "Passionfruit",
+   "Song Length": "4:59",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 4,
+   "Song Title": "Jorja Interlude",
+   "Song Length": "1:48",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 5,
+   "Song Title": "Get It Together (featuring Black Coffee and Jorja Smith)",
+   "Song Length": "4:10",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 6,
+   "Song Title": "Madiba Riddim",
+   "Song Length": "3:25",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 7,
+   "Song Title": "Blem",
+   "Song Length": "3:37",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 8,
+   "Song Title": "4422 (featuring Sampha)",
+   "Song Length": "3:06",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 9,
+   "Song Title": "Gyalchester",
+   "Song Length": "3:09",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 10,
+   "Song Title": "Skepta Interlude",
+   "Song Length": "2:23",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 11,
+   "Song Title": "Portland (featuring Quavo and Travis Scott)",
+   "Song Length": "3:57",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 12,
+   "Song Title": "Sacrifices (featuring 2 Chainz and Young Thug)",
+   "Song Length": "5:08",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 13,
+   "Song Title": "Nothings Into Somethings",
+   "Song Length": "2:34",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 14,
+   "Song Title": "Teenage Fever",
+   "Song Length": "3:40",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 15,
+   "Song Title": "KMT (featuring Giggs)",
+   "Song Length": "2:43",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 16,
+   "Song Title": "Lose You",
+   "Song Length": "5:05",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 17,
+   "Song Title": "Can't Have Everything",
+   "Song Length": "3:48",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 18,
+   "Song Title": "Glow (featuring Kanye West)",
+   "Song Length": "3:26",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 19,
+   "Song Title": "Since Way Back (featuring PartyNextDoor)",
+   "Song Length": "6:08",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 20,
+   "Song Title": "Fake Love",
+   "Song Length": "3:32",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 21,
+   "Song Title": "Ice Melts (featuring Young Thug)",
+   "Song Length": "4:11",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "Drake",
+   "Album Name": "More Life",
+   "Track Number": 22,
+   "Song Title": "Do Not Disturb",
+   "Song Length": "4:44",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 1,
+   "Song Title": "The Fear (flipped)",
+   "Song Length": "4:41",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 2,
+   "Song Title": "So Now What (flipped)",
+   "Song Length": "4:18",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 3,
+   "Song Title": "Heartworms (flipped)",
+   "Song Length": "3:09",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 4,
+   "Song Title": "Dead Alive (flipped)",
+   "Song Length": "4:34",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 5,
+   "Song Title": "Half a Million (flipped)",
+   "Song Length": "3:27",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 6,
+   "Song Title": "Rubber Ballz (flipped)",
+   "Song Length": "3:30",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 7,
+   "Song Title": "Mildenhall (flipped)",
+   "Song Length": "4:17",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 8,
+   "Song Title": "Fantasy Island (flipped)",
+   "Song Length": "3:27",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 9,
+   "Song Title": "Cherry Hearts (flipped)",
+   "Song Length": "2:52",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 10,
+   "Song Title": "Painting a Hole (flipped)",
+   "Song Length": "3:10",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "The Worm's Heart",
+   "Track Number": 11,
+   "Song Title": "Name for You (flipped)",
+   "Song Length": "4:01",
+   "Year": 2018
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 1,
+   "Song Title": "Name for You",
+   "Song Length": "3:09",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 2,
+   "Song Title": "Painting a Hole",
+   "Song Length": "4:44",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 3,
+   "Song Title": "Cherry Hearts",
+   "Song Length": "3:33",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 4,
+   "Song Title": "Fantasy Island",
+   "Song Length": "4:46",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 5,
+   "Song Title": "Mildenhall",
+   "Song Length": "3:19",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 6,
+   "Song Title": "Rubber Ballz",
+   "Song Length": "3:17",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 7,
+   "Song Title": "Half a Million",
+   "Song Length": "3:23",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 8,
+   "Song Title": "Dead Alive",
+   "Song Length": "3:34",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 9,
+   "Song Title": "Heartworms",
+   "Song Length": "2:56",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 10,
+   "Song Title": "So Now What",
+   "Song Length": "3:38",
+   "Year": 2017
+ },
+ {
+   "Artist Name": "The Shins",
+   "Album Name": "Heartworms",
+   "Track Number": 11,
+   "Song Title": "The Fear",
+   "Song Length": "5:25",
+   "Year": 2017
+ }
+]
