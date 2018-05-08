@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/now_playing_relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".NowPlayingActivity">
+
+    <ImageView
+        android:id="@+id/now_playing_album_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@color/lightGray"
+        android:contentDescription="@string/album_details_album_cover_content_description"
+        android:padding="0dp"
+        android:layout_marginHorizontal="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_music_note_400dp" />
+
+    <ProgressBar
+        android:id="@+id/now_playing_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/now_playing_album_cover"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="-5dp" />
+
+    <!-- Linear Layout for Song Title and song lengths (handles song title wrapping issues) -->
+    <LinearLayout
+        android:id="@+id/now_playing_title_and_song_lengths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/now_playing_progress_bar"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:paddingHorizontal="4dp">
+
+        <TextView
+            android:id="@+id/now_playing_song_current_length"
+            style="@style/now_playing_small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="00:00" />
+
+        <TextView
+            android:id="@+id/now_playing_song_title"
+            style="@style/style_now_playing_large_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Song Title" />
+
+        <TextView
+            android:id="@+id/now_playing_song_total_length"
+            style="@style/now_playing_small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="00:00" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/now_playing_artist_name"
+        style="@style/style_now_playing_medium_black_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/now_playing_title_and_song_lengths"
+        tools:text="Artist Name" />
+
+    <TextView
+        android:id="@+id/now_playing_album_title"
+        style="@style/style_now_playing_medium_gray_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/now_playing_title_and_song_lengths"
+        android:layout_toEndOf="@id/now_playing_artist_name"
+        tools:text="Album Title" />
+
+    <!-- Linear Layout for transport controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/now_playing_album_title"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/now_playing_previous_button"
+            style="@style/style_now_playing_transport_control_buttons"
+            android:layout_width="@dimen/now_playing_next_previous_button_size"
+            android:layout_height="@dimen/now_playing_next_previous_button_size"
+            android:background="@drawable/ic_button_background_round"
+            android:foreground="@drawable/ic_skip_previous_50dp" />
+
+        <Button
+            android:id="@+id/now_playing_play_button"
+            style="@style/style_now_playing_transport_control_buttons"
+            android:layout_width="@dimen/now_playing_play_button_size"
+            android:layout_height="@dimen/now_playing_play_button_size"
+            android:background="@drawable/ic_button_background_round"
+            android:foreground="@drawable/ic_play_arrow_50dp" />
+
+        <Button
+            android:id="@+id/now_playing_next_button"
+            style="@style/style_now_playing_transport_control_buttons"
+            android:layout_width="@dimen/now_playing_next_previous_button_size"
+            android:layout_height="@dimen/now_playing_next_previous_button_size"
+            android:background="@drawable/ic_button_background_round"
+            android:foreground="@drawable/ic_skip_next_50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

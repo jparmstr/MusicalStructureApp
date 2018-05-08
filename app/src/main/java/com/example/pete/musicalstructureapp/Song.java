@@ -25,6 +25,8 @@ class Song {
     // The second approach might be more efficient because we load the whole database
     //  in most Activities and don't need more than a String to represent the track time
     //  except when a specific song is currently playing
+    // Removing Duration would also allow me to drop the minimum SDK version down to 24 instead of 26
+    //  SDK 24 is required by the stream/filter/collect methods I use to process the database
 
     public Song(String artistName, String albumTitle, int trackNumber, String songTitle, String songLength, int year) {
         setArtistName(artistName);
