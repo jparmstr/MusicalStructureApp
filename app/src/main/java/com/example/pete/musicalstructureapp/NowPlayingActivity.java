@@ -38,7 +38,6 @@ public class NowPlayingActivity extends AppCompatActivity {
 
     // Timer / song progress variables
     private boolean playing = false;
-    //    private boolean stopped = false;
     private long timer_startTime = 0;
     private long pauseTimer_startTime = 0;
 
@@ -260,10 +259,6 @@ public class NowPlayingActivity extends AppCompatActivity {
 
     //region Timer-Related Methods
 
-    private long thisSongDurationMilliseconds() {
-        return thisSong.getSongDuration().getSeconds() * MILLISECONDS_IN_SECOND;
-    }
-
     private final Handler timerHandler = new Handler();
     private final Runnable timerRunnable = new Runnable() {
         @Override
@@ -295,7 +290,7 @@ public class NowPlayingActivity extends AppCompatActivity {
     // Start and reset the timer
     private void timerReset() {
         playing = true;
-        now_playing_progress_bar.setMax((int) thisSongDurationMilliseconds());
+        now_playing_progress_bar.setMax((int) thisSong.getLengthMilliseconds());
         timer_startTime = System.currentTimeMillis();
         timerHandler.postDelayed(timerRunnable, 0);
     }
@@ -334,7 +329,7 @@ public class NowPlayingActivity extends AppCompatActivity {
         long milliseconds_elapsed = System.currentTimeMillis() - timer_startTime;
         int seconds_elapsed = (int) (milliseconds_elapsed / MILLISECONDS_IN_SECOND);
         int minutes_elapsed = seconds_elapsed / SECONDS_IN_MINUTE;
-        long milliseconds_remaining = thisSongDurationMilliseconds() - milliseconds_elapsed;
+        long milliseconds_remaining = thisSong.getLengthMilliseconds() - milliseconds_elapsed;
 
         if (milliseconds_remaining > 0) {
             // Update progress bar
@@ -382,7 +377,7 @@ public class NowPlayingActivity extends AppCompatActivity {
         }
 
         // Update the total song length
-        long thisSongDurationSeconds = thisSongDurationMilliseconds() / MILLISECONDS_IN_SECOND;
+        long thisSongDurationSeconds = thisSong.getLengthMilliseconds() / MILLISECONDS_IN_SECOND;
         long minutes = thisSongDurationSeconds / MINUTES_IN_HOUR;
         now_playing_song_total_length.setText(String
                 .format(Locale.getDefault(), TIME_FORMAT_STRING, minutes % MINUTES_IN_HOUR, thisSongDurationSeconds % SECONDS_IN_MINUTE));

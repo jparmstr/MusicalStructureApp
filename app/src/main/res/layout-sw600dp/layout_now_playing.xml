@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:background="@color/lightGray"
         android:contentDescription="@string/album_details_album_cover_content_description"
         android:padding="0dp"
@@ -28,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/now_playing_album_cover"
-        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginTop="-5dp" />
 
     <!-- Linear Layout for Song Title and song lengths (handles song title wrapping issues) -->
@@ -38,9 +40,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/now_playing_progress_bar"
         android:gravity="top"
-        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:orientation="horizontal"
-        android:paddingHorizontal="4dp">
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp">
 
         <TextView
             android:id="@+id/now_playing_song_current_length"

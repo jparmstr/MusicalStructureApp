@@ -26,7 +26,8 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginTop="-5dp"
         android:layout_toEndOf="@id/now_playing_album_cover" />
 
@@ -39,8 +40,10 @@
         android:layout_toEndOf="@id/now_playing_album_cover"
         android:gravity="top"
         android:orientation="horizontal"
-        android:paddingHorizontal="4dp"
-        android:paddingVertical="8dp">
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
 
         <TextView
             android:id="@+id/now_playing_song_current_length"
@@ -72,7 +75,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/now_playing_title_and_song_lengths"
-        android:layout_marginVertical="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_toEndOf="@id/now_playing_album_cover"
         tools:text="Artist Name" />
 
@@ -82,7 +86,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/now_playing_title_and_song_lengths"
-        android:layout_marginVertical="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_toEndOf="@id/now_playing_artist_name"
         tools:text="Album Title" />
 
