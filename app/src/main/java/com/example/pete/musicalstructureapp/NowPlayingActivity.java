@@ -38,6 +38,7 @@ public class NowPlayingActivity extends AppCompatActivity {
 
     // Timer / song progress variables
     private boolean playing = false;
+    //    private boolean stopped = false;
     private long timer_startTime = 0;
     private long pauseTimer_startTime = 0;
 
@@ -65,6 +66,16 @@ public class NowPlayingActivity extends AppCompatActivity {
         String artistName = intent.getStringExtra("artistName");
         String songTitle = intent.getStringExtra("songTitle");
 
+        onCreate_sub(artistName, songTitle);
+
+        transport_play();
+    }
+
+    /*
+     * This method finishes setting up the Activity
+     * It can be called from either onCreate or onRestore
+     * */
+    private void onCreate_sub(String artistName, String songTitle) {
         getViewReferences();
 
         // Retrieve the songs database
@@ -91,8 +102,41 @@ public class NowPlayingActivity extends AppCompatActivity {
         // Add onClickListeners to the buttons
         setOnClickListeners();
 
-        transport_play();
         setStyle_ofTransportControls();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+
+        savedInstanceState.putString("artistName", thisSong.getArtistName());
+        savedInstanceState.putString("songTitle", thisSong.getSongTitle());
+        savedInstanceState.putBoolean("playing", playing);
+        savedInstanceState.putLong("timer_startTime", timer_startTime);
+        savedInstanceState.putLong("pauseTimer_startTime", pauseTimer_startTime);
+    }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        String artistName = savedInstanceState.getString("artistName");
+        String songTitle = savedInstanceState.getString("songTitle");
+
+        playing = savedInstanceState.getBoolean("playing");
+        timer_startTime = savedInstanceState.getLong("timer_startTime");
+        pauseTimer_startTime = savedInstanceState.getLong("pauseTimer_startTime");
+
+        // The timer will un-pause itself if we don't do this
+        if (!playing) {
+            // We don't use timerPause or timerResume here because they mess with the pause timer
+            timerHandler.removeCallbacks(timerRunnable);
+            now_playing_play_button.setForeground(getDrawable(R.drawable.ic_play_arrow_50dp));
+            // Make sure the pause timer is running
+            pauseTimerHandler.postDelayed(pauseTimerRunnable, 0);
+        }
+
+        onCreate_sub(artistName, songTitle);
     }
 
     //region Transport Control-related methods
@@ -187,6 +231,7 @@ public class NowPlayingActivity extends AppCompatActivity {
      * */
     private void transport_play() {
         timerReset();
+        playing = true;
         now_playing_play_button.setForeground(getDrawable(R.drawable.ic_pause_50dp));
     }
 
@@ -196,6 +241,7 @@ public class NowPlayingActivity extends AppCompatActivity {
      * */
     private void transport_pause() {
         timerPause();
+        playing = false;
         now_playing_play_button.setForeground(getDrawable(R.drawable.ic_play_arrow_50dp));
     }
 
@@ -206,17 +252,8 @@ public class NowPlayingActivity extends AppCompatActivity {
      * */
     private void transport_resume() {
         timerResume();
+        playing = true;
         now_playing_play_button.setForeground(getDrawable(R.drawable.ic_pause_50dp));
-    }
-
-    /*
-     * Stop playing the current song
-     * This stops playback in such a way that it can't be resumed
-     * There's currently no UI to achieve this
-     * */
-    private void transport_stop() {
-        timerStop();
-        now_playing_play_button.setForeground(getDrawable(R.drawable.ic_play_arrow_50dp));
     }
 
     //endregion Transport Control-related methods
@@ -241,8 +278,6 @@ public class NowPlayingActivity extends AppCompatActivity {
     private final Runnable pauseTimerRunnable = new Runnable() {
         @Override
         public void run() {
-            pauseTimer_countUp();
-
             pauseTimerHandler.postDelayed(this, 10);
         }
     };
@@ -271,8 +306,6 @@ public class NowPlayingActivity extends AppCompatActivity {
      * Add the time elapsed while paused to the original timer start time
      * */
     private void timerResume() {
-        playing = true;
-
         // Stop the pause timer
         pauseTimerHandler.removeCallbacks(pauseTimerRunnable);
 
@@ -294,7 +327,6 @@ public class NowPlayingActivity extends AppCompatActivity {
 
     // Stop the timer
     private void timerStop() {
-        playing = false;
         timerHandler.removeCallbacks(timerRunnable);
     }
 
@@ -303,7 +335,6 @@ public class NowPlayingActivity extends AppCompatActivity {
         int seconds_elapsed = (int) (milliseconds_elapsed / MILLISECONDS_IN_SECOND);
         int minutes_elapsed = seconds_elapsed / SECONDS_IN_MINUTE;
         long milliseconds_remaining = thisSongDurationMilliseconds() - milliseconds_elapsed;
-        int seconds_remaining = (int) (milliseconds_remaining / MILLISECONDS_IN_SECOND);
 
         if (milliseconds_remaining > 0) {
             // Update progress bar
@@ -325,11 +356,6 @@ public class NowPlayingActivity extends AppCompatActivity {
         }
     }
 
-    private void pauseTimer_countUp() {
-        // Nothing needs to happen here, actually
-        // I could visually display the time elapsed while paused if I wanted to
-    }
-
     //endregion Timer-Related Methods
 
     /*
@@ -343,9 +369,19 @@ public class NowPlayingActivity extends AppCompatActivity {
         now_playing_artist_name.setText(thisSong.getArtistName());
         now_playing_album_title.setText(thisSong.getAlbumTitle());
 
-        now_playing_song_current_length.setText(String
-                .format(Locale.getDefault(), TIME_FORMAT_STRING, 0, 0));
+        // Update the current time elapsed
+        // It doesn't matter if this is called with bad data on Activity startup because it will be immediately fixed by timer_countUp
+        // However we do need this for when the song is paused and then the screen is rotated
+        if (!playing) {
+            long milliseconds_elapsed = System.currentTimeMillis() - (timer_startTime + pauseTimer_pauseTime());
+            int seconds_elapsed = (int) (milliseconds_elapsed / MILLISECONDS_IN_SECOND);
+            int minutes_elapsed = seconds_elapsed / SECONDS_IN_MINUTE;
 
+            now_playing_song_current_length.setText(String
+                    .format(Locale.getDefault(), TIME_FORMAT_STRING, minutes_elapsed % MINUTES_IN_HOUR, seconds_elapsed % SECONDS_IN_MINUTE));
+        }
+
+        // Update the total song length
         long thisSongDurationSeconds = thisSongDurationMilliseconds() / MILLISECONDS_IN_SECOND;
         long minutes = thisSongDurationSeconds / MINUTES_IN_HOUR;
         now_playing_song_total_length.setText(String
