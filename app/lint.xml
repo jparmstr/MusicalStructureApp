@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDipSize">
+        <ignore path="src/main/res/drawable-xxhdpi/icon_the_shins_heartworms.jpg" />
+        <ignore path="src/main/res/drawable-xxhdpi/icon_the_shins_heartworms.jpg" />
+    </issue>
+    <issue id="UnusedResources">
+        <ignore path="src/main/res/drawable-hdpi/thumb_wye_oak_the_louder_i_call_the_faster_it_runs.jpg" />
+    </issue>
+</lint>
