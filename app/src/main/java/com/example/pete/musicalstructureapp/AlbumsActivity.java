@@ -3,6 +3,7 @@ package com.example.pete.musicalstructureapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.GridView;
 import android.widget.TextView;
 
@@ -28,6 +29,8 @@ public class AlbumsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_album_thumbnails);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Receive artistName_filter from ArtistsActivity, if any
         Intent intent = getIntent();
@@ -72,5 +75,16 @@ public class AlbumsActivity extends AppCompatActivity {
 
             startActivity(gotoAlbumDetailsActivity);
         });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

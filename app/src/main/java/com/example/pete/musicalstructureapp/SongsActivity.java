@@ -3,6 +3,7 @@ package com.example.pete.musicalstructureapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -17,6 +18,8 @@ public class SongsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_songs_list);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Retrieve the songs database
         ArrayList<Song> songs = getSongsDatabase(this);
@@ -44,5 +47,16 @@ public class SongsActivity extends AppCompatActivity {
 
             startActivity(gotoNowPlayingActivity);
         });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
